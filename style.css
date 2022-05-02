@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  top: 0;
+  left: 0;
+  outline: none;
+  font-family: 'DM Sans';
+}
+
+:root {
+  --primary-color: #00856f;
+  --headline: #22262a;
+  --paragraph: hsl(210, 9%, 31%, 1)
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+header {
+  margin-top: 4.1rem;
+  width: 37.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 1.6rem;
+}
+
+h1 {
+  font-size: 3.4rem;
+  color: var(--headline);
+  line-height: 130%;
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--paragraph);
+  margin-bottom: 3.4rem;
+}
+
+button {
+  background: var(--primary-color);
+  border: none;
+  border-radius: 4rem;
+  margin-bottom: 6rem;
+
+  height: 6.2rem;
+  width: 26.3rem;
+  color: white;
+
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+button img {
+  width: 1.8rem;
+  height: auto;
+}
